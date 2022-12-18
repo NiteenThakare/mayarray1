@@ -3,6 +3,7 @@ import java.util.Arrays;
 public class ArrayEg2 {
 
 	public static void main(String[] args) {
+		// string array
 		String name[]={"Sachin","Sourao","Rahul","Virendra","Zaheer"};
 		int rollno[]= {23,43,55,66,77};
 		System.out.println("===========================================");
