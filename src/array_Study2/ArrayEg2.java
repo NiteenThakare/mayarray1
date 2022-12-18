@@ -10,12 +10,12 @@ public class ArrayEg2 {
 		System.out.println("Original order");
 		for(int i=0;i<=rollno.length-1;i++)
 		{
-			System.out.println(rollno[i]);
+			System.out.println(rollno[i]);//displaying roll no
 		}
 		System.out.println("===========================================");
 		System.out.println("Array in ascending order->Ascending order");
 		Arrays.sort(rollno);
-		for (int i=0;i<=rollno.length-1;i++)
+		for (int i=0;i<=rollno.length-1;i++)  //ascending order
 		{		
 		System.out.println(rollno[i]);
 
@@ -24,7 +24,7 @@ public class ArrayEg2 {
 		System.out.println("Sorted array->Desending order");
 		for (int i=rollno.length-1;i>=0;i--)
 		{
-			System.out.println(rollno[i]);
+			System.out.println(rollno[i]);//descending order
 			
 		}
 		}
